@@ -1,26 +1,21 @@
 
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --title-shadow: #ff0070;
-  --title-decor: #ff8dcb;
-  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+  --heading-color: #353430;
   --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --article-title-color: var(--main-text-color);
-  --section-title-color: var(--main-text-color);
-  --border-color: var(--title-shadow);
-  --corners-color: var(--main-text-color);
-  --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
+  --accent-heading-color: #353430;
+  --decorative-elements: #353430;
+  --accent-color: #ff8dcb;
+  --header-menu-hover-color: rgb(50 49 45 / 0.4);
 }
-
-.page.theme_light .header__rec {
+.page.theme_light .header__decorated-element {
   display: none;
+}
+.page.theme_light .decorated-heading {
+  color: #ffc2e6;
+}
+@media (width >= 768px) {
+  .page.theme_light {
+    background-image: url(../images/cover-image-light.png);
+  }
 }

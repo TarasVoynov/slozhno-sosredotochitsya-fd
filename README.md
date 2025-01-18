@@ -1,1 +1,1 @@
-(https://github.com/TarasVoynov/slozhno-sosredotochitsya-fd.git)
+git@github.com:TarasVoynov/slozhno-sosredotochitsya.git
